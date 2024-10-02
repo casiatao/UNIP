@@ -2,15 +2,17 @@
 
 This repository contains the official pytorch implementation of UNIP.
 
+Also available in https://anonymous.4open.science/r/UNIP-8DCC/.
+
 ## 📖 Introduction
 
 ![architecture_v8_00](imgs/architecture.png)
 
-In this work, we first benchmark the infrared semantic segmentation performance of various pre-training methods and reveal several phenomena distinct from the RGB domain. Next, our analysis of layerwise attention maps in pre-trained models uncovers that: (1) There are three typical attention patterns (local, hybrid, and global); (2) The pre-training tasks notably influence the pattern distribution across layers; (3) The hybrid pattern is crucial for semantic segmentation, as it attends to both nearby and foreground elements; (4) The texture bias impedes model generalization in infrared tasks. Based on these insights, we propose a UNified Infrared Pre-training (UNIP) framework to enhance the performance of pre-trained models. This framework employs the hybrid-attention distillation NMI-HAD as the pre-training target, a large-scale mixed dataset InfMix for pre-training, and a last-layer feature pyramid network LL-FPN for fine-tuning.
+In this work, we first benchmark the infrared semantic segmentation performance of various pre-training methods and reveal several phenomena distinct from the RGB domain. Next, our layerwise analysis of pre-trained attention maps uncovers that: (1) There are three typical attention patterns (local, hybrid, and global); (2) Pre-training tasks notably influence the pattern distribution across layers; (3) The hybrid pattern is crucial for semantic segmentation as it attends to both nearby and foreground elements; (4) The texture bias impedes model generalization in infrared tasks. Building on these insights, we propose **UNIP,** a **UN**ified **I**nfrared **P**re-training framework, to enhance the pre-trained model performance. This framework uses the hybrid-attention distillation NMI-HAD as the pre-training target, a large-scale mixed dataset InfMix for pre-training, and a last-layer feature pyramid network LL-FPN for fine-tuning.
 
 ![distill_query_attn_v2_00](imgs/distill_query_attn.png)
 
-Experimental results show that UNIP outperforms various pre-training methods by up to **13.5%** in average mIoU on three infrared segmentation tasks, evaluated through both fine-tuning and linear probing metrics. UNIP-S achieves performance on par with MAE-L while requiring only **1/10** of the computational cost. Furthermore, UNIP, with fewer parameters, significantly surpasses state-of-the-art (SOTA) infrared or RGB segmentation methods and demonstrates broad applicability to other modalities, such as RGB and depth. 
+Experimental results show that UNIP outperforms various pre-training methods by up to **13.5%** in average mIoU on three infrared segmentation tasks, evaluated using fine-tuning and linear probing metrics. UNIP-S achieves performance on par with MAE-L while requiring only **1/10** of the computational cost. Furthermore, UNIP significantly surpasses state-of-the-art (SOTA) infrared or RGB segmentation methods and demonstrates the broad potential for application in other modalities, such as RGB and depth.
 
 <img src="imgs/benchmark.png" alt="benchmark" style="zoom: 67%;" />
 
