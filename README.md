@@ -2,7 +2,6 @@
 
 This repository contains the official pytorch implementation of UNIP.
 
-Also available in https://anonymous.4open.science/r/UNIP-8DCC/.
 
 ## 📖 Introduction
 
