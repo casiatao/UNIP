@@ -25,7 +25,7 @@ Experimental results show that UNIP outperforms various pre-training methods by 
 
 ```bash
 # create environment
-conda create -n unip_pre python=3.8
+conda create -n unip_pre python=3.9
 conda activate unip_pre
 # install pytorch and torchvision
 conda install pytorch==2.2.0 torchvision==0.17.0 pytorch-cuda=12.1 -c pytorch -c nvidia
@@ -78,7 +78,7 @@ sh train_scripts/mae-l_distill_unip-t.sh
 
 ```bash
 # create environment
-conda create -n unip_seg python=3.9
+conda create -n unip_seg python=3.8
 conda activate unip_seg
 # install pytorch and torchvision
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
