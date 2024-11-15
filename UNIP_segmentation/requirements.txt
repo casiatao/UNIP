@@ -2,3 +2,4 @@ numpy==1.21.6
 pavi==0.0.1
 scipy==1.7.3
 timm==0.3.2
+tensorboard==2.14.0
