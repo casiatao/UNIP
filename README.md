@@ -78,7 +78,7 @@ sh train_scripts/mae-l_distill_unip-t.sh
 
 ```bash
 # create environment
-conda create -n unip_seg python=3.8
+conda create -n unip_seg python=3.9
 conda activate unip_seg
 # install pytorch and torchvision
 conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cudatoolkit=11.1 -c pytorch -c conda-forge
