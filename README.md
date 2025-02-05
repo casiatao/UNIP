@@ -1,6 +1,6 @@
 # UNIP
 
-This repository contains the official pytorch implementation of UNIP.
+This repository contains the official pytorch implementation of the paper "[UNIP: Rethinking Pre-trained Attention Patterns for Infrared Semantic Segmentation](https://arxiv.org/abs/2502.02257)".
 
 
 ## 📖 Introduction
