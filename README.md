@@ -115,7 +115,18 @@ cd UNIP-segmentation
 sh train_scripts/train_vit_tiny.sh
 ```
 
-
+## Citation
+If you find this repository helpful, please consider giving it a star and citing:
+```bibtex
+@inproceedings{
+  zhang2025unip,
+  title={{UNIP}: Rethinking Pre-trained Attention Patterns for Infrared Semantic Segmentation},
+  author={Tao Zhang and Jinyong Wen and Zhen Chen and Kun Ding and Shiming Xiang and Chunhong Pan},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=Xq7gwsnhPT}
+}
+```
 
 ## Acknowledgements
 
