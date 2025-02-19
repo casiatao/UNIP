@@ -1,6 +1,14 @@
 # UNIP
 
 This repository contains the official pytorch implementation of the paper "[UNIP: Rethinking Pre-trained Attention Patterns for Infrared Semantic Segmentation](https://arxiv.org/abs/2502.02257)".
+<p align="left">
+  <a href='https://arxiv.org/abs/2502.02257'>
+  <img src='https://img.shields.io/badge/Arxiv-2502.02257-A42C25?style=flat&logo=arXiv&logoColor=A42C25'></a> 
+  <a href='https://huggingface.co/casaitao/UNIP'>
+  <img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-yellow'></a>
+  <a href="" target='_blank'>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=casiatao.UNIP&left_color=gray&right_color=%2342b983"></a> 
+</p>
 
 ## 🎉 News
 * 2025.02.19 🔥 The pre-trained models are released!
