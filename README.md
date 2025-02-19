@@ -2,6 +2,11 @@
 
 This repository contains the official pytorch implementation of the paper "[UNIP: Rethinking Pre-trained Attention Patterns for Infrared Semantic Segmentation](https://arxiv.org/abs/2502.02257)".
 
+## 🎉 News
+* 2025.02.19 🔥 The pre-trained models are released!
+* 2025.02.05 🔥 The source code is publicly available!
+* 2025.01.23 🎉 Congratulations! Our paper has been accepted by ICLR 2025.
+
 
 ## 📖 Introduction
 
@@ -114,6 +119,10 @@ sh train_scripts/train_vit_base.sh
 cd UNIP-segmentation
 sh train_scripts/train_vit_tiny.sh
 ```
+
+3. Pre-trained Model
+
+The pre-trained models distilled by MAE-Large and iBOT-Large can be available for download via [Google Drive](https://drive.google.com/drive/folders/1Tl5u6YSjcY2wtZDeNvic8oQFKbn5Yfu5?usp=drive_link) or [Hugging Face](https://huggingface.co/casaitao/UNIP).
 
 ## Citation
 If you find this repository helpful, please consider giving it a star and citing:
