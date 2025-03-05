@@ -110,21 +110,21 @@ pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation -
 - UNIP-S
 
 ```bash
-cd UNIP-segmentation
+cd UNIP_segmentation
 sh train_scripts/train_vit_small.sh
 ```
 
 - UNIP-B
 
 ```bash
-cd UNIP-segmentation
+cd UNIP_segmentation
 sh train_scripts/train_vit_base.sh
 ```
 
 - UNIP-T
 
 ```bash
-cd UNIP-segmentation
+cd UNIP_segmentation
 sh train_scripts/train_vit_tiny.sh
 ```
 
