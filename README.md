@@ -130,7 +130,7 @@ sh train_scripts/train_vit_tiny.sh
 
 3. Pre-trained Model
 
-The pre-trained models distilled by MAE-Large and iBOT-Large can be available for download via [Hugging Face](https://huggingface.co/casaitao/UNIP).
+The pre-trained models distilled by MAE-Large and iBOT-Large can be available for download via [Hugging Face](https://huggingface.co/casiatao/UNIP).
 
 ## Citation
 If you find this repository helpful, please consider giving it a star and citing:
