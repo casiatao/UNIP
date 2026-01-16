@@ -13,8 +13,8 @@
 </p>
 
 ## 🎉 News
-* 2026.01.16 🔥 The infrared pre-training dataset InfMix is released at [huggingface](https://huggingface.co/datasets/casiatao/InfMix)!
-* 2025.02.19 🔥 The pre-trained models are released at [huggingface](https://huggingface.co/casaitao/UNIP)!
+* 2026.01.16 🔥 The infrared pre-training dataset InfMix is released at [Hugging Face](https://huggingface.co/datasets/casiatao/InfMix)!
+* 2025.02.19 🔥 The pre-trained models are released at [Hugging Face](https://huggingface.co/casaitao/UNIP)!
 * 2025.02.05 🔥 The source code is publicly available!
 * 2025.01.23 🎉 Congratulations! Our paper has been accepted by ICLR 2025.
 
@@ -151,5 +151,6 @@ If you find this repository helpful, please consider giving it a star and citing
 ## Acknowledgements
 
 This codebase is built upon the [MAE](https://github.com/facebookresearch/mae/tree/main) repository, the [iBOT](https://github.com/bytedance/ibot) repository, the [mmsegmentation](https://github.com/open-mmlab/mmsegmentation) repository, and the [PAD](https://github.com/casiatao/PAD) repository. Thanks for their contributions.
+
 
 
